@@ -42,29 +42,50 @@ a {
 .text{
     position: absolute;
     top: 20px;
-    left: 800px;
+    left: 500px;
     color: rgb(19, 102, 227);    
 }
 
-.container p{
-    background-color: rgb(19, 103, 200);
-    color: white;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    font-size: 50px;
-    padding: 15px;
-    margin-left: 300px;
-    text-align: center;
-    width: 500px;
+.heading{
     position: absolute;
-    bottom: 90px;    
+    top: 600px;
 }
 
-h3{
+.container .text1{
+    background-color: rgb(55, 99, 160);
     text-align: center;
-    background-color: rgb(32, 171, 189);
-    width: 400px;
+    padding: 15px;
+    border-radius: 40px 0px;
     color: white;
-    margin-left: 350px;
-    
+    font-size: 60px;
+    margin: 0px 250px;
+    font-weight: bolder;
+}
+.container .text2{
+    background-color: rgb(85, 182, 182);
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin: 0px 300px;
+    font-size: 30px;
+}
+
+.container .heading1{
+    margin: 150px 50px;
+}
+
+.container .aboutus{
+    color: rgb(14, 147, 209);
+    font-size: 20px;
+}
+
+.container .pg1{
+    color: rgb(60, 193, 242);
+    border-bottom: 1px solid rgb(168, 168, 168);
+    padding: 10px 0px;
+}
+
+.container .pg2{
+    color: rgb(5, 107, 185);
+    font-size: 30px;
 }
