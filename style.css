@@ -88,4 +88,24 @@ a {
 .container .pg2{
     color: rgb(5, 107, 185);
     font-size: 30px;
+    line-height: 0.5;
+}
+
+.symbol{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pg3{
+    color: rgb(77, 157, 219);
+    line-height: 0.5;
+    margin-top: 15px;
+}
+
+.pg4{
+    border-bottom: 1px solid rgb(168, 168, 168);
+    padding-bottom: 10px;
 }
