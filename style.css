@@ -71,7 +71,7 @@ a {
 }
 
 .container .heading1{
-    margin: 150px 50px;
+    margin-top: 150px;
 }
 
 .container .aboutus{
@@ -82,7 +82,8 @@ a {
 .container .pg1{
     color: rgb(60, 193, 242);
     border-bottom: 1px solid rgb(168, 168, 168);
-    padding: 10px 0px;
+    padding-bottom: 10px;
+    padding-right: 30px;
 }
 
 .container .pg2{
@@ -108,4 +109,20 @@ a {
 .pg4{
     border-bottom: 1px solid rgb(168, 168, 168);
     padding-bottom: 10px;
+}
+
+.personal_details{
+    color: rgb(77, 157, 219);
+    line-height: 0.5;
+    padding-left: 30px;
+}
+
+.img5{
+    width:100%;
+    height: 200px;
+    margin-top: 150px;   
+}
+
+.us{
+    font-size: 35px;
 }
