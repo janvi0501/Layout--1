@@ -135,9 +135,17 @@ a {
     font-size: 25px;
     padding: 15px 20px 15px 0px;
     text-align: right;
+    margin-bottom: 0px;
 }
 
 .lorem{
     width:100%;
     background-color: rgb(85, 182, 182);
+    text-align: end;
+    padding: 15px 20px 15px 0px;
+    color: white;
+}
+
+.lorem p{
+    padding-left: 85px;
 }
