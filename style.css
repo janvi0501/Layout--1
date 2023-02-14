@@ -1,27 +1,29 @@
 *{
     box-sizing: border-box;
 }
-
 body {
     margin: 0px;
-    font-family: "Open Sans", sans-serif;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0px;
-  padding: 0px;
+img {
+    width: 100%;
 }
-
-ul,
-ol {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0px;
     padding: 0px;
+}
+a{
+   text-decoration: none;
+}
+ul, ol {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    list-style: none;
+}
+input, button {
+    box-shadow: none;
+    outline: none;
 }
 
 img {
@@ -79,11 +81,11 @@ a {
 }
 
 .container .heading1{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .circle{
-    font-size: 60px;
+    font-size: 40px;
     color: gray;
 }
 
@@ -114,7 +116,7 @@ a {
 }
 
 .pg3{
-    color: rgb(77, 157, 219);
+    color: rgb(60, 126, 176);
     line-height: 0.5;
     margin-top: 15px;
 }
@@ -125,7 +127,7 @@ a {
 }
 
 .personal_details{
-    color: rgb(77, 157, 219);
+    color: rgb(60, 126, 176);
     line-height: 0.5;
     padding-left: 30px;
 }
@@ -135,8 +137,8 @@ a {
     height: 155px;
     margin-top: 150px;
     padding-left: 45px;
-    border-right: 30px solid rgb(55, 99, 160); 
-    border-bottom-right-radius: 15px;  
+    box-shadow: 19px 10px 0px -8px rgb(55, 99, 160);
+    border-bottom-right-radius: 20px;  
 }
 
 .us{
@@ -161,7 +163,7 @@ a {
     color: white;
     margin: 0px 0px 0px 45px;
     width: 400px;
-    height: 400px;
+    height: 310px;
 }
 
 .lorem p{
@@ -170,6 +172,26 @@ a {
 
 .mail{
     padding-right: 300px;
-    padding-left: 10px;
+    padding-left: 5px;
+    color:rgb(2, 108, 165);    
 }
 
+.icons1{
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(53, 103, 173);
+    margin: 0px 10px;
+    padding-left: 5px;
+}
+
+.img7{
+    width: 100px;
+    position: absolute;
+    bottom: 1px;
+    border: 10px solid rgb(55, 99, 160);
+    border-radius: 10px 0px;
+}
+
+.allcontent{
+    margin-top: -54px;
+}
